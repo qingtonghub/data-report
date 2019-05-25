@@ -1,0 +1,31 @@
+{
+  "name": "data-report",
+  "version": "1.0.0",
+  "description": "a data report pro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack -p -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingtonghub/data-report.git"
+  },
+  "keywords": [
+    "data",
+    "report"
+  ],
+  "author": "qingtong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qingtonghub/data-report/issues"
+  },
+  "homepage": "https://github.com/qingtonghub/data-report#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
