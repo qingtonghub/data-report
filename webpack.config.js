@@ -5,6 +5,8 @@ module.exports = {
   entry: './src/lib/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: '[name].js',
+    libraryTarget: 'umd',
+    library: 'DataReport'
   }
 }
