@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/qingtonghub/data-report#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "webpack": "^4.32.2",
